@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=g810-led Controller
+Comment=Linux LED controller GUI for Logitech Keyboards
+Exec=g810-led-gui
+Icon=input-keyboard
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+Keywords=keyboard;rgb;led;logitech;g810;g213;g513;g910;
+

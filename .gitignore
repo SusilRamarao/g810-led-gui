@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ build artifacts and libraries
+*.o
+*.obj
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+
+# Keep lib and bin directory structure in git
+!lib/.gitkeep
+!bin/g810-led-gui
+
+# Ignore compiled binary executables in bin/
+bin/g810-led
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Editor and IDE metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test, coverage, and packaging artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
